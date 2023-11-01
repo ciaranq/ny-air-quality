@@ -35,4 +35,6 @@ For the team members to get access to the repo the following steps were followed
 Pull or fetch the repo
 16. to update you local repo with the main branch use a pull request from the repository menu in Github desktop.
 
+The repo is now available	through Github Pages @ https://ciaranq.github.io/ny-air-quality/
+
 
