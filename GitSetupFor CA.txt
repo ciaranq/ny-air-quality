@@ -46,9 +46,12 @@ Under "Branch source", choose a source for your branch, this will be main for ou
 Click Create branch. Now go back to you github desktop and select your branch to start working/adding your code.
 
 you many need to put your name in the  git config so you can be identified for your branch, 
-goto your dos prompt and enter these commands
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name" 
+goto your dos prompt and enter these commands for your github account
+
+git config --global user.email "sbs23098@student.cct.ie"
+git config --global user.name "CIARAN QUINLAN CCT" 
+
+commit the branch as usual and you changes will be committed to your branch that is not mai
 
 
 
