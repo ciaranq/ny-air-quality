@@ -37,4 +37,53 @@ Pull or fetch the repo
 
 The repo is now available	through Github Pages @ https://ciaranq.github.io/ny-air-quality/
 
+Branching.
+To create a branch for you individual coding go to this github link
+https://github.com/ciaranq/ny-air-quality/
+On the main dropdown select main, 
+click New branch, nder "Branch name", type a name for the branch ie. Jim, Kate etc
+Under "Branch source", choose a source for your branch, this will be main for our project .
+Click Create branch. Now go back to you github desktop and select your branch to start working/adding your code.
+
+you many need to put your name in the  git config so you can be identified for your branch, 
+goto your dos prompt and enter these commands for your github account
+
+git config --global user.email "sbs23098@student.cct.ie"
+git config --global user.name "CIARAN QUINLAN CCT" 
+
+commit the branch as usual and you changes will be committed to your branch that is not mai
+
+
+
+Gitignore
+We have very large datasets and Git cant handle >100mb files, 
+one way to deal with these is to put them in a directory that is not part of the git repo
+and refer to them in a custom path or 
+specify what files you want to ignore in the .gitignore file and they will not be pushed/pulled etc. 
+
+Branching.
+To create a branch for you individual coding go to this github link
+https://github.com/ciaranq/ny-air-quality/
+On the main dropdown select main, 
+click New branch, nder "Branch name", type a name for the branch ie. Jim, Kate etc
+Under "Branch source", choose a source for your branch, this will be main for our project .
+Click Create branch. Now go back to you github desktop and select your branch to start working/adding your code.
+
+you many need to put your name in the  git config so you can be identified for your branch, 
+goto your dos prompt and enter these commands for your github account
+
+git config --global user.email "sbs23098@student.cct.ie"
+git config --global user.name "CIARAN QUINLAN CCT" 
+
+commit the branch as usual and you changes will be committed to your branch
+
+Viewing Branches
+If you want to see if changes have been made to main branch while you have been working on you branch you can view the 
+main branch on the github desktop by changing branch.
+This will give you the option to 'stash' your changes or to commit them. (Git stash is a powerful Git feature for temporarily shelving and reverting local changes, allowing you to re-apply them later on. )
+
+
+
+
+We added James Garza as a collaborators. and we are awaiting jamesgarza73’s response
 

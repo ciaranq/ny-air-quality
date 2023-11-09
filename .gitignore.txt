@@ -1,0 +1,24 @@
+# git ignore file for the NY AIR Quality CA
+# Add you files here that you dont want uploaded
+
+ 
+# Private file specify here
+*.jim
+ 
+# Dataset Files that are too large for git >100mb
+testing*.csv
+
+# Mac/OSX
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+ 
+# Environments for our linux folk
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
