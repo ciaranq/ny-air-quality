@@ -37,4 +37,17 @@ Pull or fetch the repo
 
 The repo is now available	through Github Pages @ https://ciaranq.github.io/ny-air-quality/
 
+Branching.
+To create a branch for you individual coding go to this github link
+https://github.com/ciaranq/ny-air-quality/
+On the main dropdown select main, 
+click New branch, nder "Branch name", type a name for the branch ie. Jim, Kate etc
+Under "Branch source", choose a source for your branch, this will be main for our project .
+Click Create branch. Now go back to you github desktop and select your branch to start working/adding your code.
+
+you many need to put your name in the  git config so you can be identified for your branch, 
+goto your dos prompt and enter these commands
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name" 
+
 
