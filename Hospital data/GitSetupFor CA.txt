@@ -1,0 +1,89 @@
+ST project GIT setup
+
+We are using the google drive to share document and datasets.
+We are also going to try out using Git and GitHub to manage some of the code and to get the hang of using Git.
+Git a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency will be ideal for us!.
+
+First go at creating a repo
+We set a blank repo in the github.com and cloned it to a local Github Desktop. 
+We had one data set on Air traffic (3 GB)in NY and this with a notebook was loaded into the local Github directory.
+I went to puch this to the repo but given the huge dataset size it was over the 100 mb limit we have with our free accounts.
+
+Here are the steps we used to create the repo with a smaller dataset.
+
+1. created a Git repo under my personal Git account called  ciaranq/ny-air-quality
+2. Assigned this a Public access setting and got the URL of this repository
+3. Opened local GitHub Desktop application and used my CCT Git login that we created in Class.
+4. Select File/Clone repository, enter https://github.com/ciaranq/ny-air-quality.git in the URL option
+5. Select a local folder to store the repository and where you could run the notebooks from
+6. Select Clone at the end of the dialog.
+
+This cloned the repo to the local directory,
+
+To use the Git to push your changes:
+7. Make whatever changes to the local file and add a reference for the commit
+8. Commit to the main branch 
+
+For the team members to get access to the repo the following steps were followed.
+9. I went to the git account that owns the repository, ciaranq
+10. select settings, collaborators
+11. enter the emails of the collaborators and send an invite to @ciaranquinlan, @JimHigs, @JustKateKate. 
+12. the team members get an email and are asked to accept the invite, this is done by logging into their git account.
+14. Team members now complete steps 3-6 above and the repository of our CA will be downloaded to their local folder.
+15. Team members can complete steps 7-8 to make a commit to the main branch of the repository.
+
+Pull or fetch the repo
+16. to update you local repo with the main branch use a pull request from the repository menu in Github desktop.
+
+The repo is now available	through Github Pages @ https://ciaranq.github.io/ny-air-quality/
+
+Branching.
+To create a branch for you individual coding go to this github link
+https://github.com/ciaranq/ny-air-quality/
+On the main dropdown select main, 
+click New branch, nder "Branch name", type a name for the branch ie. Jim, Kate etc
+Under "Branch source", choose a source for your branch, this will be main for our project .
+Click Create branch. Now go back to you github desktop and select your branch to start working/adding your code.
+
+you many need to put your name in the  git config so you can be identified for your branch, 
+goto your dos prompt and enter these commands for your github account
+
+git config --global user.email "sbs23098@student.cct.ie"
+git config --global user.name "CIARAN QUINLAN CCT" 
+
+commit the branch as usual and you changes will be committed to your branch that is not mai
+
+
+
+Gitignore
+We have very large datasets and Git cant handle >100mb files, 
+one way to deal with these is to put them in a directory that is not part of the git repo
+and refer to them in a custom path or 
+specify what files you want to ignore in the .gitignore file and they will not be pushed/pulled etc. 
+
+Branching.
+To create a branch for you individual coding go to this github link
+https://github.com/ciaranq/ny-air-quality/
+On the main dropdown select main, 
+click New branch, nder "Branch name", type a name for the branch ie. Jim, Kate etc
+Under "Branch source", choose a source for your branch, this will be main for our project .
+Click Create branch. Now go back to you github desktop and select your branch to start working/adding your code.
+
+you many need to put your name in the  git config so you can be identified for your branch, 
+goto your dos prompt and enter these commands for your github account
+
+git config --global user.email "sbs23098@student.cct.ie"
+git config --global user.name "CIARAN QUINLAN CCT" 
+
+commit the branch as usual and you changes will be committed to your branch
+
+Viewing Branches
+If you want to see if changes have been made to main branch while you have been working on you branch you can view the 
+main branch on the github desktop by changing branch.
+This will give you the option to 'stash' your changes or to commit them. (Git stash is a powerful Git feature for temporarily shelving and reverting local changes, allowing you to re-apply them later on. )
+
+
+
+
+We added James Garza as a collaborators. and we are awaiting jamesgarza73’s response
+
